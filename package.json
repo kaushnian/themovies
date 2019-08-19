@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "The Movies DB website. Webpack+React+Express application.",
   "scripts": {
-    "start": "node --experimental-modules app.js",
+    "start": "npm run start:client && npm run start:server",
+    "start:client": "cd client && npm run build",
+    "start:server": "node --experimental-modules app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
