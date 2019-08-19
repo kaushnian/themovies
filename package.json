@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kaushnian/themovies/issues"
   },
-  "homepage": "https://github.com/kaushnian/themovies#readme"
+  "homepage": "https://github.com/kaushnian/themovies#readme",
+  "dependencies": {
+    "express": "4.17.1"
+  }
 }
