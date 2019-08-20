@@ -2,6 +2,7 @@
   "name": "themovies",
   "version": "1.0.0",
   "description": "The Movies DB website. Webpack+React+Express application.",
+  "main": "app.js",
   "scripts": {
     "start": "npm run start:client && npm run start:server",
     "start:client": "cd client && npm run build",
@@ -12,9 +13,9 @@
     "type": "git",
     "url": "git+https://github.com/kaushnian/themovies.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["movies"],
+  "author": "Yevgeny Kaushnian",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kaushnian/themovies/issues"
   },
@@ -22,5 +23,8 @@
   "dependencies": {
     "express": "4.17.1"
   },
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": "12.x"
+  }
 }
