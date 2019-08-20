@@ -1,0 +1,30 @@
+{
+  "name": "themovies",
+  "version": "1.0.0",
+  "description": "The Movies DB website. Webpack+React+Express application.",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm run start:client && npm run start:server",
+    "start:client": "cd client && npm run build",
+    "start:server": "node --experimental-modules app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaushnian/themovies.git"
+  },
+  "keywords": ["movies"],
+  "author": "Yevgeny Kaushnian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaushnian/themovies/issues"
+  },
+  "homepage": "https://github.com/kaushnian/themovies#readme",
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "type": "module",
+  "engines": {
+    "node": "12.x"
+  }
+}
